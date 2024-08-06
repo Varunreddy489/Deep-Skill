@@ -1,0 +1,12 @@
+1. Set Your Username for Git
+git config --global user.name "Varunreddy"
+
+2. Set Your Email for Git
+git config --global user.email "varunsannapureddy@gmail.com"
+
+3. Verify Your Configuration Settings
+
+git config --global --list
+
+user.name=Varunreddy
+user.email=varunsannapureddy@gmail.com
