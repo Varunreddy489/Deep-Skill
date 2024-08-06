@@ -1,1 +1,46 @@
 Hi My Name is Varunreddy
+
+1.GIT CLONE:
+ git clone https://github.com/adrianhajdin/social_media_app.git
+
+2.Navigate to The Directory:
+     cd social_media_app/
+
+3.Check the commit history:
+  $ git log
+commit 9fa032dd198c92aa498db82d248c0d93f28ebf5c (HEAD -> main, origin/main, origin/HEAD)
+Author: Sujata <151519281+sujatagunale@users.noreply.github.com>
+Date:   Sat Dec 30 18:16:06 2023 +0530
+
+    Update README.md
+
+
+4.Changes introduced by a specific commit.
+
+    git show 9fa032dd198c92aa498db82d248c0d93f28ebf5c
+    
+commit 9fa032dd198c92aa498db82d248c0d93f28ebf5c (HEAD -> main, origin/main, origin/HEAD)
+Author: Sujata <151519281+sujatagunale@users.noreply.github.com>
+Date:   Sat Dec 30 18:16:06 2023 +0530
+
+    Update README.md
+
+diff --git a/README.md b/README.md
+index a6dd6bf..ca11c0b 100644
+--- a/README.md
++++ b/README.md
+@@ -13,7 +13,7 @@
+
+
+1. Set Your Username for Git
+git config --global user.name "Varunreddy"
+
+2. Set Your Email for Git
+git config --global user.email "varunsannapureddy@gmail.com"
+
+3. Verify Your Configuration Settings
+
+git config --global --list
+
+user.name=Varunreddy
+user.email=varunsannapureddy@gmail.com
